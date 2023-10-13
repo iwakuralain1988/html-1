@@ -1,0 +1,14 @@
+.outer {
+    background-color: rgba(195, 245, 252, 0.706);
+    border: 3px solid black;
+    border-radius: 30px;
+    margin: 5px;
+    padding: 20px;
+    justify-content: center;
+    width: 50%;
+    
+}
+
+span {
+    color: rgb(246, 41, 41);
+}
