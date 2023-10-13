@@ -1,0 +1,67 @@
+h1 {
+    color: mediumvioletred;
+    font-size: 108px;
+}
+
+.green-italic {
+    color: green;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+}
+
+.red-bold {
+    color: red;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+.blue-underlined {
+    color: blue;
+    text-decoration: underline;
+    font-size: 25px;
+    text-align: center;
+}
+
+#main {
+    color: rgb(213, 165, 254);
+    font-size: 35px;
+    text-shadow: 3px 3px 5px violet;
+}
+
+span {
+    color: rgb(198, 1, 198);
+}
+
+.inner {
+    background-color: yellow;
+    width: 50%;
+}
+
+.inner:hover {
+    background-color: beige;
+}
+
+.outer {
+    background-color: hotpink;
+    margin: 15px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid steelblue;
+}
+
+.container {
+    background-color: firebrick;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.inner > p:first-child {
+    font-size: 30px;
+}
+
+.inner > p:last-child {
+    text-shadow: 2px 2px 3px pink;
+}
