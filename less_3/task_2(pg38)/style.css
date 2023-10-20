@@ -1,0 +1,22 @@
+html, body {
+    margin: 0px;
+    height: 100%;
+}
+
+.inner {
+    align-items: center;
+    margin: 5px;
+    text-align: center;
+}
+
+.outer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    align-content: center;
+}
+
+#button {
+    color: rgb(102, 204, 255);
+}
