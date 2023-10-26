@@ -1,0 +1,24 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.menu__item {
+    display: block;
+    background: bisque;
+    margin: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border: 15px;
+    font-size: 77px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    align-content: center;
+}
