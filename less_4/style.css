@@ -1,0 +1,45 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+
+}
+
+button {
+    color: whitesmoke;
+    background-color: purple;
+    border-radius: 5px;
+    border: none;
+    height: 21px;
+}
+
+.container {
+    transition: 1s ease;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.vks:hover {
+    transform: scale(2);
+}
+
+.vks {
+    transition: 1s ease;
+}
+
+.output { 
+    padding-top: 5px;
+    width:100%
+}
+
+input[type=text]{
+    width:100%
+}
+
+.input {
+  display: flex;
+}
