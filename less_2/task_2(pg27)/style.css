@@ -4,21 +4,35 @@ html, body {
 }
 
 .menu__item {
-    display: block;
-    background: bisque;
-    margin: 30px;
-    border-radius: 5px;
-    border-color: black;
-    border: 15px;
-    font-size: 77px;
-    text-align: center;
-    flex-wrap: wrap;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    border-right: none;
 }
 
 .menu {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    height: 100%;
-    align-content: center;
+}
+
+.inner_menu {
+    transition: transform ease 1s;
+}
+
+.menu__item:first-child {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.menu__item:last-child {
+    border-radius: 0px 10px 10px 0px;
+    border-right: 1px solid black;
+}
+
+.menu__item:hover {
+    background-color: rgb(84, 7, 250);
+    color: rgb(252, 252, 252);
+}
+
+.inner_menu:hover {
+    transform: scale(1.2);
 }
