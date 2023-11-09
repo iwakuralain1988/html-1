@@ -30,27 +30,42 @@ html, body {
     transition: all;
 }
 
+#ease-in {
+    transition: ease-in 1s;
+}
+
 #ease-in:hover {
-    width: 99%;
-    transition: width 1s ease-in;
+    transform: scaleX(99%);
+}
+
+#ease {
+    transition: ease 1s;
 }
 
 #ease:hover {
-    width: 99%;
-    transition: width 1s ease;
+    transform: scaleX(99%);
+}
+
+#ease-out {
+    transition: ease-out 1s;
 }
 
 #ease-out:hover {
-    width: 99%;
-    transition: width 1s ease-out;
+    transform: scaleX(99%);
+}
+
+#ease-in-out {
+    transition: ease-in-out 1s;
 }
 
 #ease-in-out:hover {
-    width: 99%;
-    transition: width 1s ease-in-out
+    transform: scaleX(99%);
+}
+
+#linear {
+    transition: linear 1s;
 }
 
 #linear:hover {
-    width: 99%;
-    transition: width 1s linear;
+    transform: scaleX(99%);
 }
