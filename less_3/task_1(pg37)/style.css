@@ -35,7 +35,7 @@ html, body {
 }
 
 #ease-in {
-    transition: transform ease-in 1s;
+        transition: transform ease-in 1s;
 }
 
 #ease-in:hover {

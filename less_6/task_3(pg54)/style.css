@@ -1,0 +1,21 @@
+html, body {
+    magrin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    width: 400px;
+    height: 400px;
+    background-color: bisque;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+}
