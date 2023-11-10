@@ -9,6 +9,10 @@ html, body {
     width: 100%;
 }
 
+.outer:hover > .inner {
+    transform: scaleX(99%);
+}
+
 .inner:active {
     width: 99%;
     transition: width 1s;
@@ -31,7 +35,7 @@ html, body {
 }
 
 #ease-in {
-    transition: ease-in 1s;
+    transition: transform ease-in 1s;
 }
 
 #ease-in:hover {
@@ -39,7 +43,7 @@ html, body {
 }
 
 #ease {
-    transition: ease 1s;
+    transition: transform ease 1s;
 }
 
 #ease:hover {
@@ -47,7 +51,7 @@ html, body {
 }
 
 #ease-out {
-    transition: ease-out 1s;
+    transition: transform ease-out 1s;
 }
 
 #ease-out:hover {
@@ -55,7 +59,7 @@ html, body {
 }
 
 #ease-in-out {
-    transition: ease-in-out 1s;
+    transition: transform ease-in-out 1s;
 }
 
 #ease-in-out:hover {
@@ -63,7 +67,7 @@ html, body {
 }
 
 #linear {
-    transition: linear 1s;
+    transition: transform linear 1s;
 }
 
 #linear:hover {
