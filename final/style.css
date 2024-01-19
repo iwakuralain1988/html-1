@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+}
+
+#board {
+    position: relative;
+    background-color: palevioletred;
+    width: 562px;
+    height: 562px;
+    border-radius: 5px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+.board_cell {
+    position: absolute;
+    background-color: rgb(179, 93, 121);
+    width: 128px;
+    height: 128px;
+    border-radius: 5px;
+}
+
+.board_tile {
+    background-color: rgb(141, 73, 95);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 52px;
+    transition: left 0.5s ease, top 0.5s ease;
+}
+
+#modal {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.22);
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    display: none;
+    transition: display 1s ease;
+}
